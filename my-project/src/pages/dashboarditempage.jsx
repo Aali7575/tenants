@@ -1,9 +1,13 @@
 import DashboardItem from "../components/dashboard/dashboarditems"
+import AppLayout from "../components/dashboard/mainlayout"
 
 
 function DashboardItemPage() {
   return (
-    <DashboardItem/>
+    <AppLayout>
+       <DashboardItem/>
+    </AppLayout>
+   
   )
 }
 

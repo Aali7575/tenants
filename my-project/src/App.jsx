@@ -15,6 +15,7 @@ function App() {
      <Route path = "agentdashboard/propertymanagement" element = {<PropertyManagementPage/>}/>
      <Route path = "agentdashboard/dashboarditempage" element = {<DashboardItemPage/>}/>
      <Route path = "/login" element = {<LoginInPage/>}/>
+     <Route path = "/" element = {<MainLayoutPage/>}/>
   </Routes>
 </Router>
 

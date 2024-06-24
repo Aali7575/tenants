@@ -95,7 +95,7 @@
                             className="text-base font-medium text-gray-900 font-pj"
                           >
                             {" "}
-                            Company Email{" "}
+                            Email{" "}
                           </label>
                         </div>
                         <div className="mt-2.5">
