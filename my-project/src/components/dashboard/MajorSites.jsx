@@ -46,8 +46,11 @@ const MajorSites = () => {
             <TbSitemap style={{ marginRight: "8px", fontSize: "20px" }} />
             Critical Maintanence Issues
           </p>
-          <p className="mt-1 text-sm font-medium text-gray-500">
+          {/* <p className="mt-1 text-sm font-medium text-gray-500">
            Major sites across the nation
+          </p> */}
+          <p className="mt-1 text-sm font-medium text-gray-500">
+          Property Listings
           </p>
         </div>
 
