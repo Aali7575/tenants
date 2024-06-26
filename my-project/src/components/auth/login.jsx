@@ -36,24 +36,24 @@
               // Handle login for fuel department
               // Example:
               // await fuelAuthStore.login(email, password);
-              navigate("/app/fuel");
+              navigate("/agentdashboard");
               break;
 
             case "plantmanagement":
               // Handle login for plant management department
-              navigate("/app/plant");
+              navigate("/agentdashboard");
               break;
 
             case "humanresourcesmanagement":
               // Handle login for human resources department
-              navigate("/app/hr");
+              navigate("/agentdashboard");
               break;
 
             case "workshopandgarage":
               // Handle login for workshop and garage department
               // Example:
               // await workshopAuthStore.login(email, password);
-              navigate("/app/workshop");
+              navigate("/agentdashboard");
               break;
 
             default:
