@@ -22,13 +22,13 @@ const PlantPerSite = () => {
       breakdown: 10,
       running: 80,
       standby: 40,
-      site: "TEFOMA",
+      site: "UNIT A",
     },
     {
       breakdown: 50,
       running: 78,
       standby: 24,
-      site: "HEBE P4",
+      site: "DANGAMVURA",
     },
     {
       breakdown: 5,
@@ -40,7 +40,7 @@ const PlantPerSite = () => {
       breakdown: 2,
       running: 92,
       standby: 22,
-      site: "ZIMINYA",
+      site: "GWERU",
     },
     {
       breakdown: 5,

@@ -12,19 +12,19 @@ const Notification = ({
           id: 1,
           title: 'New message received',
           time: '20 minutes ago',
-          description: 'New requisition from Chivhu'
+          description: 'Notice submitted by Gracious at Unit 3'
         },
         {
           id: 2,
           title: 'New message received',
           time: '3 hours ago',
-          description: 'New requisition from Ziminya'
+          description: 'New service request submitted by Chido for plumbing services at Shop 143.'
         },
         {
           id: 3,
           title: 'New message received',
           time: '4 hours ago',
-          description: 'New requisition from Bulawayo'
+          description: 'New service request for an electrician by Rudo at Unit 109'
         }
       ];
     return (

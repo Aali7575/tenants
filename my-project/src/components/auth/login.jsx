@@ -149,7 +149,7 @@
                               htmlFor=""
                               className="pt-4 text-base font-medium text-gray-900 font-pj"
                             >
-                              Department
+                              Role
                             </label>
                           </div>
 
@@ -177,8 +177,8 @@
 
                     <button
                       className="flex items-center justify-center w-full px-8 py-4 mt-5 text-base font-bold text-white transition-all duration-200 
-                          bg-green-900 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 
-                          font-pj hover:bg-green-800"
+                          bg-red-900 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-900 
+                          font-pj hover:bg-red-800"
                           onClick={loginNavigate}
                           disabled={loading} // Disable the button while loading
                           >

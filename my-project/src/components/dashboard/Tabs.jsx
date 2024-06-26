@@ -14,7 +14,7 @@ const Tabs = ({ onTabChange }) => {
     <div>
       <div className="pb-4 max-w-7xl ">
         <nav className="flex flex-col space-y-3 sm:space-y-0 sm:space-x-4 sm:flex-row sm:items-center">
-          <div
+          {/* <div
             className={`cursor-pointer inline-flex items-center px-6 py-4 text-sm font-medium ${
               activeTab === "majorbreakdowns"
                 ? "text-white bg-[#06380b]"
@@ -24,6 +24,17 @@ const Tabs = ({ onTabChange }) => {
           >
             <GiAutoRepair style={{ marginRight: "8px", fontSize: "20px" }} />
             Major Breakdowns
+          </div> */}
+          <div
+            className={`cursor-pointer inline-flex items-center px-6 py-4 text-sm font-medium ${
+              activeTab === "majorbreakdowns"
+                ? "text-white bg-[#06380b]"
+                : "text-gray-500 hover:text-gray-900"
+            } transition-all duration-200 rounded-lg group whitespace-nowrap`}
+            onClick={() => handleTabClick("majorbreakdowns")}
+          >
+            <GiAutoRepair style={{ marginRight: "8px", fontSize: "20px" }} />
+            Critical Maintanance Issues
           </div>
 
           <div
@@ -35,7 +46,7 @@ const Tabs = ({ onTabChange }) => {
             onClick={() => handleTabClick("majorsites")}
           >
             <TbSitemap style={{ marginRight: "8px", fontSize: "20px" }} />
-            Major Sites
+            Property Listings
           </div>
         </nav>
       </div>

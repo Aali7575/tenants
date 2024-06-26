@@ -25,7 +25,7 @@ const AppLayout = (props) => {
     <div className="h-screen w-screen flex overflow-hidden">
       <LogoutModal showModal={showModal} closeModal={closeModal} />
       
-      <div className={`fixed inset-y-0 left-0 z-50 transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 xl:transform-none xl:static xl:inset-y-0 bg-gray-900 xl:flex xl:w-64 xl:flex-col`}>
+      <div className={`fixed inset-y-0 left-0 z-50 transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 xl:transform-none xl:static xl:inset-y-0 bg-red-900 xl:flex xl:w-64 xl:flex-col`}>
         <div className="flex flex-col flex-grow pt-5 overflow-y-auto">
           <div className="flex items-center justify-center flex-shrink-0 px-4">
             {/* Add your logo here if needed */}
@@ -36,7 +36,7 @@ const AppLayout = (props) => {
               <nav className="flex-1 space-y-2">
                 
                 <Link to="/agentdashboard/dashboarditempage">
-                  <div className={`flex items-center mt-2 px-4 py-2.5 text-sm font-medium ${location.pathname === "/agentdashboard/dashboarditempage" ? "bg-gray-700 text-white" : "text-white"} transition-all duration-200 rounded-lg hover:bg-gray-700 group`}>
+                  <div className={`flex items-center mt-2 px-4 py-2.5 text-sm font-medium ${location.pathname === "/agentdashboard/dashboarditempage" ? "bg-red-700 text-white" : "text-white"} transition-all duration-200 rounded-lg hover:bg-gray-700 group`}>
                     <svg
                       className="flex-shrink-0 w-5 h-5 mr-4 text-white"
                       xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const AppLayout = (props) => {
                         d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                       />
                     </svg>
-                    Dashboard
+                    Agents Dashboard
                   </div>
                 </Link>
 
@@ -220,7 +220,7 @@ const AppLayout = (props) => {
                   type="search"
                   name="search"
                   id="search"
-                  className="block w-full py-2 pl-10 border-gray-300 rounded-lg focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm"
+                  className="block w-full py-2 pl-10 border-gray-300 rounded-lg focus:ring-red-600 focus:border-red-600 sm:text-sm"
                   placeholder="Search here"
                 />
               </div>

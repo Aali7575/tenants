@@ -5,14 +5,14 @@ const NewRecquisition = () => {
       <div className="overflow-hidden bg-gray-50 border border-gray-200 rounded-xl">
       <div className="px-4 py-5 sm:p-6">
         <p className="mt-6 text-xs font-semibold tracking-widest text-indigo-600 uppercase">
-          New requisition
+          New service request
         </p>
         <p className="mt-6 text-lg font-medium text-gray-900">
-          <span className="font-bold">Ziminya Site</span> is
-          requesting a disc harrow.
+          <span className="font-bold">Chido Mugani</span> is
+          requesting publing services at Shop 105
         </p>
         <p className="mt-3 text-sm font-medium text-gray-500">
-          Requisition passed by the Site Engineer.
+          Tendai Mugara is the one with more points for this job.
         </p>
         <div className="flex items-center mt-6 space-x-4">
           <button

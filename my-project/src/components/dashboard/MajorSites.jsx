@@ -38,9 +38,13 @@ const MajorSites = () => {
     <div>
       <div className="sm:flex sm:items-start sm:justify-between">
         <div>
-          <p className="flex text-base font-bold text-gray-900">
+          {/* <p className="flex text-base font-bold text-gray-900">
             <TbSitemap style={{ marginRight: "8px", fontSize: "20px" }} />
             MAJOR SITES
+          </p> */}
+          <p className="flex text-base font-bold text-gray-900">
+            <TbSitemap style={{ marginRight: "8px", fontSize: "20px" }} />
+            Critical Maintanence Issues
           </p>
           <p className="mt-1 text-sm font-medium text-gray-500">
            Major sites across the nation
