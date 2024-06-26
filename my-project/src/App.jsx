@@ -3,24 +3,21 @@ import MainLayoutPage from "./pages/minlayoutpage";
 import PropertyManagementPage from "./pages/propertymanagement";
 import DashboardItemPage from "./pages/dashboarditempage";
 import LoginInPage from "./pages/loginpage";
+import AppLayout from "./components/dashboard/mainlayout";
 
 function App() {
   return (
-    <div>
-
-<Router>
-  <Routes>
-    <Route path = "/agentdashboard" element = {<MainLayoutPage/>}
-     />
-     <Route path = "agentdashboard/propertymanagement" element = {<PropertyManagementPage/>}/>
-     <Route path = "agentdashboard/dashboarditempage" element = {<DashboardItemPage/>}/>
-     <Route path = "/" element = {<LoginInPage/>}/>
-     <Route path = "/agentdashboard" element = {<MainLayoutPage/>}/>
-  </Routes>
-</Router>
-
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginInPage />} />
+        <Route path="/agentdashboard/*" element={<AppLayout />}>
+          <Route index element={<MainLayoutPage />} />
+          <Route path="propertymanagement" element={<PropertyManagementPage />} />
+          <Route path="dashboarditempage" element={<DashboardItemPage />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
